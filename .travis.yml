@@ -7,7 +7,7 @@ scripts:
     - docker images gvadrevu/node
 
 before_deploy:
-    -docker login -u gvadrevu -p V1@2d3revu
+    - docker login -u gvadrevu -p V1@2d3revu
 
 deploy:
     provider: script
